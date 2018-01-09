@@ -51,9 +51,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
-	background: #CFDAB1;
-}
+/* body{
+	background: #CFDAB1; 
+} */
 h1 {
 	font-family: 'Merriweather', serif;
 	font-size:30pt;
@@ -76,6 +76,13 @@ p{
 	letter-spacing: -0.01em;
 	margin: 1em auto;
 }
+html { 
+     background: url('/churchmonitor02/background2.png') no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+    }
 }
 .mySlides {
 	display:none;
@@ -102,10 +109,13 @@ p{
 .bottom_cont{
 	color: black;
 	height: 30%;
-	background-color: #236549;
+	/* background-color: #236549; */
+	background-color: rgba(35, 101, 73, 0.5);
 }
 .news_cont{
-	background-color: #A9CFDC;
+	/* background-color: #A9CFDC; */
+	backgound-color: rgba(169, 207, 220, .5)
+
 }
 /* Create three equal columns that floats next to each other */
 .column1 {
@@ -138,8 +148,10 @@ p{
 .welcome_cont{
 	height: 20%;
 	color: #CFDAB1;
-	background-color: #00553E;
+	background-color: rgba(35, 101, 73, 0.6);
+	/* background-color: #00553E; */
 	letter-spacing: .01em;
 	margin: 0;
 	text-align: center;
+	opacity: 20%;
 }
